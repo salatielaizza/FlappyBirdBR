@@ -166,6 +166,7 @@ public class FlappyBird extends ApplicationAdapter {
 		//Teste de colisão
 		if (Intersector.overlaps( passaroCirculo, retanguloCanoBaixo) || Intersector.overlaps( passaroCirculo, retanguloCanoTopo)) {
 			//Gdx.app.log("Colisão", "Houve Colisão");
+			estadoJogo = 2;
 
 		};
 
